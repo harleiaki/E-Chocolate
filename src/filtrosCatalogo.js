@@ -10,7 +10,7 @@ function exibirTodos() {
   }
 }
 
-function esconderBrasileiro() {
+function esconderBrasileiros() {
   exibirTodos();
   const produtosBrasileiros = Array.from(
     catalogoProdutos.getElementsByClassName("brasileiro")
@@ -21,13 +21,13 @@ function esconderBrasileiro() {
   }
 }
 
-function esconderJapones() {
+function esconderJaponeses() {
   exibirTodos();
-  const produtosJapones = Array.from(
-    catalogoProdutos.getElementsByClassName("japones")
+  const produtosJaponeses = Array.from(
+    catalogoProdutos.getElementsByClassName("japonese")
   );
 
-  for (const produto of produtosJapones) {
+  for (const produto of produtosJaponeses) {
     produto.classList.add("hidden");
   }
 }
@@ -37,9 +37,9 @@ export function inicializarFiltros() {
     .getElementById("exibir-todos")
     .addEventListener("click", exibirTodos);
   document
-    .getElementById("exibir-brasileiro")
-    .addEventListener("click", esconderJapones);
+    .getElementById("exibir-brasileiros")
+    .addEventListener("click", esconderJaponeses);
   document
-    .getElementById("exibir-japones")
-    .addEventListener("click", esconderBrasileiro);
+    .getElementById("exibir-japoneses")
+    .addEventListener("click", esconderBrasileiros);
 }
