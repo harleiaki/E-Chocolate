@@ -4,15 +4,15 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Abacaxi",
     preco: 70,
-    imagem: "abacaxi.png",
+    imagem: "./brasil/abacaxi.png",
     japones: false,
   },
   {
     id: "2",
     marca: "KitKat",
-    nome: "Algodão Doce",
+    nome: "./brasil/Algodão Doce",
     preco: 85,
-    imagem: "algodao-doce.png",
+    imagem: "./brasil/algodao-doce.png",
     japones: true,
   },
   {
@@ -20,7 +20,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Ao Leite",
     preco: 60,
-    imagem: "ao-leite.png",
+    imagem: "./brasil/ao-leite.png",
     japones: false,
   },
   {
@@ -28,7 +28,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Avelã",
     preco: 160,
-    imagem: "avela.png",
+    imagem: "./brasil/avela.png",
     japones: false,
   },
   {
@@ -36,7 +36,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Banana",
     preco: 110,
-    imagem: "banana.png",
+    imagem: "./brasil/banana.png",
     japones: false,
   },
   {
@@ -44,7 +44,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Café",
     preco: 170,
-    imagem: "cafe.png",
+    imagem: "./brasil/cafe.png",
     japones: true,
   },
   {
@@ -52,7 +52,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Churros",
     preco: 75,
-    imagem: "churros.png",
+    imagem: "./brasil/churros.png",
     japones: true,
   },
   {
@@ -60,7 +60,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Coco",
     preco: 88,
-    imagem: "coco.png",
+    imagem: "./brasil/coco.png",
     japones: true,
   },
   {
@@ -68,7 +68,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Dark",
     preco: 70,
-    imagem: "dark.png",
+    imagem: "./brasil/dark.png",
     japones: false,
   },
   {
@@ -76,7 +76,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Framboesa",
     preco: 85,
-    imagem: "framboesa.png",
+    imagem: "./brasil/framboesa.png",
     japones: true,
   },
   {
@@ -84,7 +84,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Goiaba",
     preco: 60,
-    imagem: "goiaba.png",
+    imagem: "./brasil/goiaba.png",
     japones: false,
   },
   {
@@ -92,7 +92,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Limão",
     preco: 160,
-    imagem: "limao.png",
+    imagem: "./brasil/limao.png",
     japones: false,
   },
   {
@@ -100,7 +100,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Maracúja",
     preco: 110,
-    imagem: "maracuja.png",
+    imagem: "./brasil/maracuja.png",
     japones: false,
   },
   {
@@ -108,7 +108,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Menta",
     preco: 170,
-    imagem: "menta.png",
+    imagem: "./brasil/menta.png",
     japones: true,
   },
   {
@@ -116,7 +116,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Morango",
     preco: 75,
-    imagem: "morango.png",
+    imagem: "./brasil/morango.png",
     japones: true,
   },
   {
@@ -124,7 +124,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "Pistache",
     preco: 88,
-    imagem: "pistache.png",
+    imagem: "./brasil/pistache.png",
     japones: true,
   },
   {
@@ -132,7 +132,7 @@ export const catalogo = [
     marca: "KitKat",
     nome: "White",
     preco: 88,
-    imagem: "white.png",
+    imagem: "./brasil/white.png",
     japones: true,
   },
 ];
