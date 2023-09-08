@@ -13,7 +13,7 @@ export const catalogo = [
     nome: "./brasil/Algodão Doce",
     preco: 85,
     imagem: "./brasil/algodao-doce.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "3",
@@ -45,7 +45,7 @@ export const catalogo = [
     nome: "Café",
     preco: 170,
     imagem: "./brasil/cafe.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "7",
@@ -53,7 +53,7 @@ export const catalogo = [
     nome: "Churros",
     preco: 75,
     imagem: "./brasil/churros.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "8",
@@ -61,7 +61,7 @@ export const catalogo = [
     nome: "Coco",
     preco: 88,
     imagem: "./brasil/coco.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "9",
@@ -77,7 +77,7 @@ export const catalogo = [
     nome: "Framboesa",
     preco: 85,
     imagem: "./brasil/framboesa.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "11",
@@ -109,7 +109,7 @@ export const catalogo = [
     nome: "Menta",
     preco: 170,
     imagem: "./brasil/menta.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "15",
@@ -117,7 +117,7 @@ export const catalogo = [
     nome: "Morango",
     preco: 75,
     imagem: "./brasil/morango.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "16",
@@ -125,7 +125,7 @@ export const catalogo = [
     nome: "Pistache",
     preco: 88,
     imagem: "./brasil/pistache.png",
-    japones: true,
+    japones: false,
   },
   {
     id: "17",
@@ -133,7 +133,7 @@ export const catalogo = [
     nome: "White",
     preco: 88,
     imagem: "./brasil/white.png",
-    japones: true,
+    japones: false,
   },
 ];
 
