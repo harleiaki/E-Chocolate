@@ -12,7 +12,7 @@ function exibirTodos() {
 
 function esconderBrasileiros() {
   exibirTodos();
-  const produtosMasculinos = Array.from(
+  const produtosBrasileiros = Array.from(
     catalogoProdutos.getElementsByClassName("brasileiro")
   );
 
@@ -23,7 +23,7 @@ function esconderBrasileiros() {
 
 function esconderJaponeses() {
   exibirTodos();
-  const produtosFemininos = Array.from(
+  const produtosJaponeses = Array.from(
     catalogoProdutos.getElementsByClassName("japones")
   );
 
