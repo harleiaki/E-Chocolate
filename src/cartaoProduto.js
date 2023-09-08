@@ -3,7 +3,7 @@ import { adicionarAoCarrinho } from "./menuCarrinho";
 
 export function renderizarCatalogo() {
   for (const produtoCatalogo of catalogo) {
-    const cartaoProduto = `<div class='border-solid w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-slate-400 rounded-lg group ${
+    const cartaoProduto = `<div class='border-solid w-48 m-2 flex flex-col p-2 justify-between shadow-xl bg-gradient-to-r from-fuchsia-200 to-blue-200 rounded-lg group ${
       produtoCatalogo.japones ? "japones" : "brasileiro"
     }' id="card-produto-${produtoCatalogo.id}">
         <img
@@ -16,7 +16,7 @@ export function renderizarCatalogo() {
         <p class='text-sm'>$${produtoCatalogo.preco}</p>
         <button id='adicionar-${
           produtoCatalogo.id
-        }' class='bg-slate-950 hover:bg-slate-700 text-slate-200'
+        }' class='bg-slate-950 hover:bg-gradient-to-l from-indigo-500 text-slate-200'
         ><i class="fa-solid fa-cart-plus"></i></button>
         </div>`;
 

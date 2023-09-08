@@ -180,13 +180,13 @@ export function desenharProdutoCarrinhoSimples(
       class="h-24 rounded-lg"
     />
     <div class="p-2 flex flex-col justify-between">
-      <p class="text-slate-900 text-sm">
+      <p class="text-slate-900  text-sm">
         ${produto.nome}
       </p>
-      <p class="text-slate-400 text-xs">Tamanho: M</p>
+      <p class="text-slate-400 text-xs">KitKat: 🍫</p>
       <p class="text-green-700 text-lg">$${produto.preco}</p>
     </div>
-    <div class='flex text-slate-950 items-end absolute bottom-0 right-2 text-lg'>
+    <div class='flex text-slate-950  items-end absolute bottom-0 right-2 text-lg'>
         <p id='quantidade-${produto.id}' class='ml-2'>${quantidadeProduto}</p>
     </div>`;
   //<article class="flex bg-slate-100 rounded-lg p-1 relative">codigo do cartao do produto</article>
