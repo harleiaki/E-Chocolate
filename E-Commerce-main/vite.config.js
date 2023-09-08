@@ -3,7 +3,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/E-Chocolate/",
+  base: "/E-Chocolate2/",
   plugins: [],
   resolve: {
     /*something*/
