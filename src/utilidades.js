@@ -5,15 +5,15 @@ export const catalogo = [
     nome: "Abacaxi",
     preco: 70,
     imagem: "abacaxi.png",
-    feminino: false,
+    japones: false,
   },
   {
-    id: "2",
+    id: "2",s
     marca: "KitKat",
     nome: "Algodão Doce",
     preco: 85,
     imagem: "algodao-doce.png",
-    feminino: true,
+    japones: true,
   },
   {
     id: "3",
@@ -21,7 +21,7 @@ export const catalogo = [
     nome: "Ao Leite",
     preco: 60,
     imagem: "ao-leite.png",
-    feminino: false,
+    japones: false,
   },
   {
     id: "4",
@@ -29,7 +29,7 @@ export const catalogo = [
     nome: "Avelã",
     preco: 160,
     imagem: "avela.png",
-    feminino: false,
+    japones: false,
   },
   {
     id: "5",
@@ -37,7 +37,7 @@ export const catalogo = [
     nome: "Banana",
     preco: 110,
     imagem: "banana.png",
-    feminino: false,
+    japones: false,
   },
   {
     id: "6",
@@ -45,7 +45,7 @@ export const catalogo = [
     nome: "Café",
     preco: 170,
     imagem: "cafe.png",
-    feminino: true,
+    japones: true,
   },
   {
     id: "7",
@@ -53,7 +53,7 @@ export const catalogo = [
     nome: "Churros",
     preco: 75,
     imagem: "churros.png",
-    feminino: true,
+    japones: true,
   },
   {
     id: "8",
@@ -61,7 +61,7 @@ export const catalogo = [
     nome: "Coco",
     preco: 88,
     imagem: "coco.png",
-    feminino: true,
+    japones: true,
   },
 ];
 
