@@ -133,7 +133,7 @@ export const catalogo = [
     nome: "White",
     preco: 88,
     imagem: "./brasileiro/white.png",
-    japones: false,
+    japones: true,
   },
 ];
 
