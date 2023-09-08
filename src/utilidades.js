@@ -10,7 +10,7 @@ export const catalogo = [
   {
     id: "2",
     marca: "KitKat",
-    nome: "./brasil/Algodão Doce",
+    nome: "Algodão Doce",
     preco: 85,
     imagem: "./brasil/algodao-doce.png",
     japones: false,
@@ -134,6 +134,22 @@ export const catalogo = [
     preco: 88,
     imagem: "./brasil/white.png",
     japones: false,
+  },
+  {
+    id: "18",
+    marca: "KitKat",
+    nome: "Classic",
+    preco: 88,
+    imagem: "./japao/classic.png",
+    japones: true,
+  },
+  {
+    id: "19",
+    marca: "KitKat",
+    nome: "Marcha",
+    preco: 88,
+    imagem: "./japao/matcha.png",
+    japones: true,
   },
 ];
 

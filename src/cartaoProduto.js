@@ -8,12 +8,12 @@ export function renderizarCatalogo() {
     }' id="card-produto-${produtoCatalogo.id}">
         <img
         src="./assets/img/${produtoCatalogo.imagem}"
-        alt="Produto 1 do Magazine ."s
+        alt="Kit Kat 1 ."
         class='group-hover:scale-110 duration-300 my-3 rounded-lg'
         />
-        <p class='text-sm'>${produtoCatalogo.marca}</p>
-        <p class='text-sm'>${produtoCatalogo.nome}</p>
-        <p class='text-sm'>$${produtoCatalogo.preco}</p>
+        <p class='text-center'>${produtoCatalogo.marca}</p>
+        <p class='text-center'>${produtoCatalogo.nome}</p>
+        <p class='text-center'>${produtoCatalogo.preco}</p>
         <button id='adicionar-${
           produtoCatalogo.id
         }' class='bg-slate-950 hover:bg-gradient-to-l from-indigo-500 text-slate-200'
