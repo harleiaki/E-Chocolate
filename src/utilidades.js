@@ -8,7 +8,7 @@ export const catalogo = [
     japones: false,
   },
   {
-    id: "2",s
+    id: "2",
     marca: "KitKat",
     nome: "Algodão Doce",
     preco: 85,
