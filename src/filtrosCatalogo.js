@@ -13,7 +13,7 @@ function exibirTodos() {
 function esconderBrasileiros() {
   exibirTodos();
   const produtosBrasileiros = Array.from(
-    catalogoProdutos.getElementsByClassName("brasileiro")
+    catalogoProdutos.getElementsByClassName("brasileiros")
   );
 
   for (const produto of produtosBrasileiros) {
@@ -24,7 +24,7 @@ function esconderBrasileiros() {
 function esconderJaponeses() {
   exibirTodos();
   const produtosJaponeses = Array.from(
-    catalogoProdutos.getElementsByClassName("japonese")
+    catalogoProdutos.getElementsByClassName("japoneses")
   );
 
   for (const produto of produtosJaponeses) {
