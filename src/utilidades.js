@@ -1143,6 +1143,38 @@ export const catalogo = [
     imagem: "./japao/Kocha.png",
     japones: true,
   },
+  {
+    id: "142",
+    marca: "KitKat",
+    nome: "Oolong Kit Kat",
+    preco: 40,
+    imagem: "./japao/Oolong Kit Kat.png",
+    japones: true,
+  },
+  {
+    id: "143",
+    marca: "KitKat",
+    nome: "Hojicha",
+    preco: 40,
+    imagem: "./japao/Hojicha.png",
+    japones: true,
+  },
+  {
+    id: "144",
+    marca: "KitKat",
+    nome: "Hojicha",
+    preco: 40,
+    imagem: "./japao/Hojicha.png",
+    japones: true,
+  },
+  {
+    id: "145",
+    marca: "KitKat",
+    nome: "Examination Kit Kat",
+    preco: 40,
+    imagem: "./japao/Examination Kit Kat.png",
+    japones: true,
+  },
 ];
 
 export function salvarLocalStorage(chave, informacao) {
